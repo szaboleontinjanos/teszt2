@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'Kismacska_Example', :exclusive => true do
+  pod 'Kismacska', :path => '../'
+end
+
+target 'Kismacska_Tests', :exclusive => true do
+  pod 'Kismacska', :path => '../'
+
+  
+end
