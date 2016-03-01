@@ -7,6 +7,7 @@
 //
 
 #import "KMViewController.h"
+#import <Kismacska/NSObject+Kismacska.h>
 
 @interface KMViewController ()
 
@@ -18,6 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [self kismacska];
 }
 
 - (void)didReceiveMemoryWarning

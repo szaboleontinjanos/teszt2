@@ -10,4 +10,9 @@
 
 @implementation NSObject (Kismacska)
 
+- (void) kismacska
+{
+    NSLog(@"Nagymacska");
+}
+
 @end

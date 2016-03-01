@@ -1,15 +1,15 @@
 {
   "name": "Kismacska",
   "version": "0.1.0",
-  "summary": "A short description of Kismacska.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/Kismacska",
+  "summary": "Kismacska test Pod summary",
+  "description": "Description of Kismacska Cocoa Test Pod",
+  "homepage": "https://github.com/szaboleontinjanos/teszt2",
   "license": "MIT",
   "authors": {
-    "Levente Szabo": "szabo.levente@zengo.eu"
+    "Levente Szabo": "sl58417@yahoo.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/Kismacska.git",
+    "git": "https://github.com/szaboleontinjanos/teszt2.git",
     "tag": "0.1.0"
   },
   "platforms": {

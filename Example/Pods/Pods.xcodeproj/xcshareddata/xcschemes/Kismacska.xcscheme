@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'C567352A83B72752FC203B53'
+               BlueprintIdentifier = 'D86DF4475B053DC66AC0A1C5'
                BlueprintName = 'Kismacska'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Kismacska.framework'>

@@ -10,4 +10,6 @@
 
 @interface NSObject (Kismacska)
 
+- (void) kismacska;
+
 @end
