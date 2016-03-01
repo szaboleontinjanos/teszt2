@@ -1,0 +1,14 @@
+PODS:
+  - Kismacska (0.1.0)
+
+DEPENDENCIES:
+  - Kismacska (from `../`)
+
+EXTERNAL SOURCES:
+  Kismacska:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Kismacska: d9743501659b69f45829af83461e8e8ed7f60a28
+
+COCOAPODS: 0.39.0

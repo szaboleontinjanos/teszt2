@@ -1,0 +1,777 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		373CF4BA597ADAA78E39CC96D010A2D4 /* Pods-Kismacska_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 850DA908D4F6453C2D70D02144D5FC4E /* Pods-Kismacska_Tests-dummy.m */; };
+		3977A69295DC7A18B8CAB3FA8AB710CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		3A8B67D0BA6AA1CBC987B78056708F77 /* Pods-Kismacska_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 50282D617C0E082A6DD0E64133C7DFB4 /* Pods-Kismacska_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C27DF129B00EBF305851DAAE9024494 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		5B04C9C25773D166D386D07BAF483218 /* Kismacska-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B030DE745B6D967C4C960F55D887E4 /* Kismacska-dummy.m */; };
+		65A4FACEACF331334613487B25BD1D1F /* Kismacska-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A9A4C2B4FE754495221B5D202E257F8 /* Kismacska-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96B15397047AE4398C014C0A3EA8140D /* Pods-Kismacska_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA956ED7B52BD6718F656CE99475FC63 /* Pods-Kismacska_Example-dummy.m */; };
+		E8290B141BF7916CDEE5E034C830F6D8 /* Pods-Kismacska_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 783FD94F373E53708A7886A0BC5F8708 /* Pods-Kismacska_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF9DF76FC700C6989234DF18B7B0A3C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		F94175710EF68F064CE4088EF9873DFE /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFA97D25E8DE258607BC34D2CA28C51 /* ReplaceMe.m */; };
+		FFBFE7D003ADDE349E5EF3CF8111661E /* Kismacska.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8A9702A604A0B9E3E36B1FF7A508B260 /* Kismacska.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F5B53C9FADA2F47B694AFD99F40700B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F49274EBD281AF315CB076CDC49441E;
+			remoteInfo = Kismacska;
+		};
+		5AFE37793BB466EB8DEB55AA7A1CBF1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F49274EBD281AF315CB076CDC49441E;
+			remoteInfo = Kismacska;
+		};
+		F2C9BFB39AA16511A9C1628C47B874E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06B81317AC088850AD7AABAE8D874456;
+			remoteInfo = "Kismacska-Kismacska";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04CBBB3F3677BD4628C7E7C47614646F /* Pods-Kismacska_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Kismacska_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		11C3703B805F7282FFCFD9A4F0C568A7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19177BA261F8F00A4C799A7CA539FEE9 /* Kismacska.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kismacska.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29CB8E3BC2E6DD7DCB782E9A9EA3D97B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33A7C2F32160792A0AFDAD7E4F0C6777 /* Pods-Kismacska_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Kismacska_Example.release.xcconfig"; sourceTree = "<group>"; };
+		35C1E8955418DD846F6A27276B175CE2 /* Pods-Kismacska_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Kismacska_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4A9A4C2B4FE754495221B5D202E257F8 /* Kismacska-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kismacska-umbrella.h"; sourceTree = "<group>"; };
+		4E16C208F15CC67FC512A44E8C5FBC11 /* Pods_Kismacska_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kismacska_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50282D617C0E082A6DD0E64133C7DFB4 /* Pods-Kismacska_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Kismacska_Tests-umbrella.h"; sourceTree = "<group>"; };
+		528DC42E2CAF173DBC7E4984F2EB8A65 /* Pods-Kismacska_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Kismacska_Example-frameworks.sh"; sourceTree = "<group>"; };
+		57BB591570ABC73709B2B952DF483DB0 /* Pods-Kismacska_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Kismacska_Example.modulemap"; sourceTree = "<group>"; };
+		709F1A110A78F1781D626C846C30CE65 /* Pods-Kismacska_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Kismacska_Example-resources.sh"; sourceTree = "<group>"; };
+		783FD94F373E53708A7886A0BC5F8708 /* Pods-Kismacska_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Kismacska_Example-umbrella.h"; sourceTree = "<group>"; };
+		7B81126BCA58D9C769496B30C329D9FB /* Pods-Kismacska_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Kismacska_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7C24BAEBC90476267DD93000B8B7AC5F /* Pods-Kismacska_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Kismacska_Tests-resources.sh"; sourceTree = "<group>"; };
+		850DA908D4F6453C2D70D02144D5FC4E /* Pods-Kismacska_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Kismacska_Tests-dummy.m"; sourceTree = "<group>"; };
+		858D75A84808E9DD503E02FD59A23925 /* Kismacska-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kismacska-prefix.pch"; sourceTree = "<group>"; };
+		85A7774F762471FC32E7DC080A03B9DB /* Pods-Kismacska_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Kismacska_Tests.modulemap"; sourceTree = "<group>"; };
+		8A9702A604A0B9E3E36B1FF7A508B260 /* Kismacska.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Kismacska.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AFA97D25E8DE258607BC34D2CA28C51 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		9679C03684824802852DFB54C3E00026 /* Pods-Kismacska_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Kismacska_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9ABAACA73D200990C618D082AD39D164 /* Kismacska.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Kismacska.modulemap; sourceTree = "<group>"; };
+		9C628982DCBEBD9FDF14291D07B4E47E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4B030DE745B6D967C4C960F55D887E4 /* Kismacska-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Kismacska-dummy.m"; sourceTree = "<group>"; };
+		AA956ED7B52BD6718F656CE99475FC63 /* Pods-Kismacska_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Kismacska_Example-dummy.m"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BB589812CDACEBF78965FD1BC1174A28 /* Pods-Kismacska_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Kismacska_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BDDAA475B355CEFDB7699389B80C1D08 /* Pods-Kismacska_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Kismacska_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D2058E5FF94D5FD27E8BF4638D3A5672 /* Pods_Kismacska_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kismacska_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFE2275B2F0F466B259DD869D7C854C0 /* Pods-Kismacska_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Kismacska_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EBB6C3F32D873E5CC506D8737DA490B9 /* Kismacska.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kismacska.xcconfig; sourceTree = "<group>"; };
+		F293244DB3C76B7C95ACC8F0051BE472 /* Pods-Kismacska_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Kismacska_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CC586FF502E02327245CFF247123A62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B908C731FA2EC487980AF0709CDDEEED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF9DF76FC700C6989234DF18B7B0A3C9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFDD7C0AF207E68689357963C9101F07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C27DF129B00EBF305851DAAE9024494 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F91E2B0B24BEDF167B86991CC0CAC0C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3977A69295DC7A18B8CAB3FA8AB710CA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46AEF95DD1522665F9CA438501EA143C /* Pods-Kismacska_Example */ = {
+			isa = PBXGroup;
+			children = (
+				11C3703B805F7282FFCFD9A4F0C568A7 /* Info.plist */,
+				57BB591570ABC73709B2B952DF483DB0 /* Pods-Kismacska_Example.modulemap */,
+				9679C03684824802852DFB54C3E00026 /* Pods-Kismacska_Example-acknowledgements.markdown */,
+				F293244DB3C76B7C95ACC8F0051BE472 /* Pods-Kismacska_Example-acknowledgements.plist */,
+				AA956ED7B52BD6718F656CE99475FC63 /* Pods-Kismacska_Example-dummy.m */,
+				528DC42E2CAF173DBC7E4984F2EB8A65 /* Pods-Kismacska_Example-frameworks.sh */,
+				709F1A110A78F1781D626C846C30CE65 /* Pods-Kismacska_Example-resources.sh */,
+				783FD94F373E53708A7886A0BC5F8708 /* Pods-Kismacska_Example-umbrella.h */,
+				04CBBB3F3677BD4628C7E7C47614646F /* Pods-Kismacska_Example.debug.xcconfig */,
+				33A7C2F32160792A0AFDAD7E4F0C6777 /* Pods-Kismacska_Example.release.xcconfig */,
+			);
+			name = "Pods-Kismacska_Example";
+			path = "Target Support Files/Pods-Kismacska_Example";
+			sourceTree = "<group>";
+		};
+		47E798DF03627F68455A88AF1B76B7E5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED454B2CDC6794B8B3FF2AAE422438E5 /* Kismacska */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		54BCC717581055610DD5C15881E375D4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DBDF549FAE1EB08ADBF2CE353E8CBBEE /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		715041323148B1C4414251BF7B3F329B /* Pods-Kismacska_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9C628982DCBEBD9FDF14291D07B4E47E /* Info.plist */,
+				85A7774F762471FC32E7DC080A03B9DB /* Pods-Kismacska_Tests.modulemap */,
+				BDDAA475B355CEFDB7699389B80C1D08 /* Pods-Kismacska_Tests-acknowledgements.markdown */,
+				DFE2275B2F0F466B259DD869D7C854C0 /* Pods-Kismacska_Tests-acknowledgements.plist */,
+				850DA908D4F6453C2D70D02144D5FC4E /* Pods-Kismacska_Tests-dummy.m */,
+				35C1E8955418DD846F6A27276B175CE2 /* Pods-Kismacska_Tests-frameworks.sh */,
+				7C24BAEBC90476267DD93000B8B7AC5F /* Pods-Kismacska_Tests-resources.sh */,
+				50282D617C0E082A6DD0E64133C7DFB4 /* Pods-Kismacska_Tests-umbrella.h */,
+				BB589812CDACEBF78965FD1BC1174A28 /* Pods-Kismacska_Tests.debug.xcconfig */,
+				7B81126BCA58D9C769496B30C329D9FB /* Pods-Kismacska_Tests.release.xcconfig */,
+			);
+			name = "Pods-Kismacska_Tests";
+			path = "Target Support Files/Pods-Kismacska_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				47E798DF03627F68455A88AF1B76B7E5 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D6890B253E965056D4DE0A1BA5106AA0 /* Products */,
+				9A891F9625825D7E9675AE8CABA1D281 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9A891F9625825D7E9675AE8CABA1D281 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				46AEF95DD1522665F9CA438501EA143C /* Pods-Kismacska_Example */,
+				715041323148B1C4414251BF7B3F329B /* Pods-Kismacska_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D6890B253E965056D4DE0A1BA5106AA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A9702A604A0B9E3E36B1FF7A508B260 /* Kismacska.bundle */,
+				19177BA261F8F00A4C799A7CA539FEE9 /* Kismacska.framework */,
+				4E16C208F15CC67FC512A44E8C5FBC11 /* Pods_Kismacska_Example.framework */,
+				D2058E5FF94D5FD27E8BF4638D3A5672 /* Pods_Kismacska_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBDF549FAE1EB08ADBF2CE353E8CBBEE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8AFA97D25E8DE258607BC34D2CA28C51 /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		ED454B2CDC6794B8B3FF2AAE422438E5 /* Kismacska */ = {
+			isa = PBXGroup;
+			children = (
+				54BCC717581055610DD5C15881E375D4 /* Pod */,
+				F3C1D982838915BFEA6FC0E1C81F48AE /* Support Files */,
+			);
+			name = Kismacska;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F3C1D982838915BFEA6FC0E1C81F48AE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				29CB8E3BC2E6DD7DCB782E9A9EA3D97B /* Info.plist */,
+				9ABAACA73D200990C618D082AD39D164 /* Kismacska.modulemap */,
+				EBB6C3F32D873E5CC506D8737DA490B9 /* Kismacska.xcconfig */,
+				A4B030DE745B6D967C4C960F55D887E4 /* Kismacska-dummy.m */,
+				858D75A84808E9DD503E02FD59A23925 /* Kismacska-prefix.pch */,
+				4A9A4C2B4FE754495221B5D202E257F8 /* Kismacska-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Kismacska";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2BEC3EAA17EFE1224EFC62DCBA2E26CC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A8B67D0BA6AA1CBC987B78056708F77 /* Pods-Kismacska_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80118CDEE8458DABA1E4BE520E289974 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65A4FACEACF331334613487B25BD1D1F /* Kismacska-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F529F78390445912AC24F905397AE501 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8290B141BF7916CDEE5E034C830F6D8 /* Pods-Kismacska_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		06B81317AC088850AD7AABAE8D874456 /* Kismacska-Kismacska */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E71B36943DBD15333E974A271B32A63 /* Build configuration list for PBXNativeTarget "Kismacska-Kismacska" */;
+			buildPhases = (
+				B00329986B15A7AD203BD73EC3F8E1DE /* Sources */,
+				1CC586FF502E02327245CFF247123A62 /* Frameworks */,
+				F169A0DB1D54ABC7F83E2C2EDE9D8D13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kismacska-Kismacska";
+			productName = "Kismacska-Kismacska";
+			productReference = 8A9702A604A0B9E3E36B1FF7A508B260 /* Kismacska.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		3C759059C239A8EC2B7AA9A92866F648 /* Pods-Kismacska_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC4D91A1878CDAF2D926BED158C3596E /* Build configuration list for PBXNativeTarget "Pods-Kismacska_Tests" */;
+			buildPhases = (
+				2EB2BC1D55452A3667BD32B67DA4E934 /* Sources */,
+				B908C731FA2EC487980AF0709CDDEEED /* Frameworks */,
+				2BEC3EAA17EFE1224EFC62DCBA2E26CC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30C26E2E4C58D239E3194B114F6A0F99 /* PBXTargetDependency */,
+			);
+			name = "Pods-Kismacska_Tests";
+			productName = "Pods-Kismacska_Tests";
+			productReference = D2058E5FF94D5FD27E8BF4638D3A5672 /* Pods_Kismacska_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7F49274EBD281AF315CB076CDC49441E /* Kismacska */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52BF5B411E19A96323D357CCD784D853 /* Build configuration list for PBXNativeTarget "Kismacska" */;
+			buildPhases = (
+				448BF66593BDAC324C3818160828D0D3 /* Sources */,
+				F91E2B0B24BEDF167B86991CC0CAC0C1 /* Frameworks */,
+				F09C89D4DFDDC06BEED38C8B7E816672 /* Resources */,
+				80118CDEE8458DABA1E4BE520E289974 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F8AADB42D0206A85831B7E6A537CB4D /* PBXTargetDependency */,
+			);
+			name = Kismacska;
+			productName = Kismacska;
+			productReference = 19177BA261F8F00A4C799A7CA539FEE9 /* Kismacska.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FFF684DA97F7B64732E5DE03AECA687A /* Pods-Kismacska_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DE450314581516609B472E19846CAB9 /* Build configuration list for PBXNativeTarget "Pods-Kismacska_Example" */;
+			buildPhases = (
+				A108AAAE839328A5014F83E2BE13A5DA /* Sources */,
+				BFDD7C0AF207E68689357963C9101F07 /* Frameworks */,
+				F529F78390445912AC24F905397AE501 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				121CA1F6E44AB073E1B4C8AC978E75A0 /* PBXTargetDependency */,
+			);
+			name = "Pods-Kismacska_Example";
+			productName = "Pods-Kismacska_Example";
+			productReference = 4E16C208F15CC67FC512A44E8C5FBC11 /* Pods_Kismacska_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D6890B253E965056D4DE0A1BA5106AA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F49274EBD281AF315CB076CDC49441E /* Kismacska */,
+				06B81317AC088850AD7AABAE8D874456 /* Kismacska-Kismacska */,
+				FFF684DA97F7B64732E5DE03AECA687A /* Pods-Kismacska_Example */,
+				3C759059C239A8EC2B7AA9A92866F648 /* Pods-Kismacska_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F09C89D4DFDDC06BEED38C8B7E816672 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFBFE7D003ADDE349E5EF3CF8111661E /* Kismacska.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F169A0DB1D54ABC7F83E2C2EDE9D8D13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EB2BC1D55452A3667BD32B67DA4E934 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				373CF4BA597ADAA78E39CC96D010A2D4 /* Pods-Kismacska_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		448BF66593BDAC324C3818160828D0D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B04C9C25773D166D386D07BAF483218 /* Kismacska-dummy.m in Sources */,
+				F94175710EF68F064CE4088EF9873DFE /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A108AAAE839328A5014F83E2BE13A5DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96B15397047AE4398C014C0A3EA8140D /* Pods-Kismacska_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00329986B15A7AD203BD73EC3F8E1DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		121CA1F6E44AB073E1B4C8AC978E75A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Kismacska;
+			target = 7F49274EBD281AF315CB076CDC49441E /* Kismacska */;
+			targetProxy = 5AFE37793BB466EB8DEB55AA7A1CBF1B /* PBXContainerItemProxy */;
+		};
+		30C26E2E4C58D239E3194B114F6A0F99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Kismacska;
+			target = 7F49274EBD281AF315CB076CDC49441E /* Kismacska */;
+			targetProxy = 3F5B53C9FADA2F47B694AFD99F40700B /* PBXContainerItemProxy */;
+		};
+		7F8AADB42D0206A85831B7E6A537CB4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Kismacska-Kismacska";
+			target = 06B81317AC088850AD7AABAE8D874456 /* Kismacska-Kismacska */;
+			targetProxy = F2C9BFB39AA16511A9C1628C47B874E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1C2AE10280E0012679EBCB29F011236E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBB6C3F32D873E5CC506D8737DA490B9 /* Kismacska.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = Kismacska;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		679B1738D9E15D88A29F5EA391A5587B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBB6C3F32D873E5CC506D8737DA490B9 /* Kismacska.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Kismacska/Kismacska-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Kismacska/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Kismacska/Kismacska.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Kismacska;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6C4340279F65DFC0C7BA918EEC42B867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33A7C2F32160792A0AFDAD7E4F0C6777 /* Pods-Kismacska_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Kismacska_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Kismacska_Example/Pods-Kismacska_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Kismacska_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8004DDD7DBF31B854732B20ACA3FF52C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04CBBB3F3677BD4628C7E7C47614646F /* Pods-Kismacska_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Kismacska_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Kismacska_Example/Pods-Kismacska_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Kismacska_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8655D6F27E8848F30F36552AFCA541DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBB6C3F32D873E5CC506D8737DA490B9 /* Kismacska.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = Kismacska;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		BB3388A5ACA0AE1D9B25DAB9F26830F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B81126BCA58D9C769496B30C329D9FB /* Pods-Kismacska_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Kismacska_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Kismacska_Tests/Pods-Kismacska_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Kismacska_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CBA95CDB1C5EFA46F1F6C466C5487AF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBB6C3F32D873E5CC506D8737DA490B9 /* Kismacska.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Kismacska/Kismacska-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Kismacska/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Kismacska/Kismacska.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Kismacska;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F7CD9876C887A9001C39C111037D0B77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB589812CDACEBF78965FD1BC1174A28 /* Pods-Kismacska_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Kismacska_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Kismacska_Tests/Pods-Kismacska_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Kismacska_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E71B36943DBD15333E974A271B32A63 /* Build configuration list for PBXNativeTarget "Kismacska-Kismacska" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C2AE10280E0012679EBCB29F011236E /* Debug */,
+				8655D6F27E8848F30F36552AFCA541DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52BF5B411E19A96323D357CCD784D853 /* Build configuration list for PBXNativeTarget "Kismacska" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				679B1738D9E15D88A29F5EA391A5587B /* Debug */,
+				CBA95CDB1C5EFA46F1F6C466C5487AF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DE450314581516609B472E19846CAB9 /* Build configuration list for PBXNativeTarget "Pods-Kismacska_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8004DDD7DBF31B854732B20ACA3FF52C /* Debug */,
+				6C4340279F65DFC0C7BA918EEC42B867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC4D91A1878CDAF2D926BED158C3596E /* Build configuration list for PBXNativeTarget "Pods-Kismacska_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7CD9876C887A9001C39C111037D0B77 /* Debug */,
+				BB3388A5ACA0AE1D9B25DAB9F26830F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

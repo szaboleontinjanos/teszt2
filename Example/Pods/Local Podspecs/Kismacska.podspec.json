@@ -1,0 +1,25 @@
+{
+  "name": "Kismacska",
+  "version": "0.1.0",
+  "summary": "A short description of Kismacska.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/Kismacska",
+  "license": "MIT",
+  "authors": {
+    "Levente Szabo": "szabo.levente@zengo.eu"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/Kismacska.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "Kismacska": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
